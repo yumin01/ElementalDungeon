@@ -1,0 +1,174 @@
+{
+"playerDatas":[
+ {
+  "level": 1,
+  "levelUpExp": 100000,
+  "hp": 100,
+  "mp": 100,
+  "force": 10,
+  "walkSpeed": 2,
+  "runSpeed": 3,
+  "jumpForce": 5
+ }
+],
+"killQuestDatas":[
+ {
+  "questUID": 0,
+  "killEnemyType": "Monster",
+  "killEnemyUID": 0,
+  "needKillCount": 10,
+  "baseDataUID": 1
+ },
+ {
+  "questUID": 1,
+  "killEnemyType": "Boss",
+  "killEnemyUID": 0,
+  "needKillCount": 1,
+  "baseDataUID": 2
+ }
+],
+"getQuestDatas":[
+ {
+  "questUID": 0,
+  "needItemUID": 1,
+  "needItemCount": 10,
+  "baseDataUID": 0
+ }
+],
+"baseQuestDatas":[
+ {
+  "questUID": 0,
+  "questType": "Get",
+  "name": "테스트 아이템 수집",
+  "description": "테스트 아이템 수집"
+ },
+ {
+  "questUID": 1,
+  "questType": "Kill",
+  "name": "박쥐 처치",
+  "description": "박쥐 10마리 처치"
+ },
+ {
+  "questUID": 2,
+  "questType": "Kill",
+  "name": "보스 처치",
+  "description": "보스 1회 처치"
+ }
+],
+"monsterDatas":[
+ {
+  "monsterUID": 0,
+  "monsterCodeName": "Ghost_Bat",
+  "monsterName": "유령 박쥐",
+  "description": "어쩌구 저쩌구",
+  "exp": 1,
+  "hp": 10,
+  "force": 5,
+  "speed": 5,
+  "attackDelay": 0.07,
+  "canAttackDistance": 2,
+  "canAttackDelay": 1,
+  "knockBackForce": 1,
+  "elemental": "Ghost"
+ }
+],
+"itemDatas":[
+ {
+  "itemUID": 0,
+  "maxCount": 10,
+  "codeName": "TestItem",
+  "name": "TestItem",
+  "description": "테스트아이템입니다.",
+  "itemImageKey": "TestItem"
+ },
+ {
+  "itemUID": 1,
+  "maxCount": 10,
+  "codeName": "TestPotion",
+  "name": "TestPotion",
+  "description": "현제 체력 + 100 ",
+  "itemImageKey": "TestPotion"
+ }
+],
+"dialogDatas":[
+ {
+  "dialogUID": 0,
+  "speakerName": "왕녀",
+  "speakerImageKey": "Illust_Princess",
+  "speakerType": "OneButton",
+  "sentence": "마을의 문제가 일어났어",
+  "buttonOneContent": "다음",
+  "buttonTwoContent": "null",
+  "buttonThreeContent": "null",
+  "nextDialogUID": 1
+ },
+ {
+  "dialogUID": 1,
+  "speakerName": "왕녀",
+  "speakerImageKey": "Illust_Princess",
+  "speakerType": "TwoButton",
+  "sentence": "이 문제를 해결해주겠니?",
+  "buttonOneContent": "수락",
+  "buttonTwoContent": "거절",
+  "buttonThreeContent": "null",
+  "nextDialogUID": -1
+ },
+ {
+  "dialogUID": 2,
+  "speakerName": "왕녀",
+  "speakerImageKey": "Illust_Princess",
+  "speakerType": "OneButton",
+  "sentence": "고마워 !",
+  "buttonOneContent": "종료",
+  "buttonTwoContent": "null",
+  "buttonThreeContent": "null",
+  "nextDialogUID": -100
+ },
+ {
+  "dialogUID": 3,
+  "speakerName": "왕녀",
+  "speakerImageKey": "Illust_Princess",
+  "speakerType": "OneButton",
+  "sentence": "나쁜놈 !",
+  "buttonOneContent": "종료",
+  "buttonTwoContent": "null",
+  "buttonThreeContent": "null",
+  "nextDialogUID": -100
+ }
+],
+"skillDatas":[
+ {
+  "skillUID": 0,
+  "elemental": "Fire",
+  "name": "화마의 숨결",
+  "description": "전방에 스플래시 데미지를 준다.",
+  "iconImageKey": "Skill_Fire_One"
+ },
+ {
+  "skillUID": 1,
+  "elemental": "Fire",
+  "name": "화마 돌진",
+  "description": "적을 밀치면서 데미지를 주고 지나간 자리에 불을 일으킨다.",
+  "iconImageKey": "Skill_Fire_Two"
+ }
+],
+"bossDatas":[
+ {
+  "bossUID": 0,
+  "bossCodeName": "Ice_Boss",
+  "bossName": "얼음 정령",
+  "description": "어쩌구 저쩌구",
+  "exp": 10,
+  "hp": 100,
+  "force": 10,
+  "speed": 3,
+  "attackDelay": 2,
+  "canAttackDistance": 2,
+  "knockBackForce": 2,
+  "elemental": "Ice",
+  "skill_OneCooltime": 5,
+  "skill_TwoCooltime": 5,
+  "skill_UltCooltime": 5
+ }
+]
+}
